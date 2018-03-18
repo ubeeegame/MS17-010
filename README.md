@@ -41,7 +41,8 @@ Anonymous user (null session) get more restriction on default settings of new Wi
 * **Eternalromance** requires access to named pipe. The exploit can target Windows < 8 because the bug for info leak is fixed in Windows 8. The exploit should have a chance to crash a target lower than Eternalblue. I never test a reliable of the exploit.
 * **Eternalsynergy** requires access to named pipe. I believe this exploit is modified from Eternalromance to target Windows 8 and later. Eternalsynergy uses another bug for info leak and does some trick to find executable memory (I do not know how it works because I read only output log and pcap file).
 
-<h>line</h>
+
+---------------------------------------------------------------------------
 正常zzz_exploit.py就包含了所有的系统，不过默认执行的payload只是在c盘写了一个文件
 
 需要修改 972行
